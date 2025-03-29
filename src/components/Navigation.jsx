@@ -16,7 +16,7 @@ const Navigation = ({product}) => {
                 <button onClick={()=>{SetText("")}} className="absolute right-0.5 top-0.5 active:scale-90"><img className="h-12 object-cover cursor-pointer rounded-2xl bg-amber-500" src="https://img.icons8.com/?size=100&id=111487&format=png&color=000000" alt="search icon"/></button>
             </div>
             <Link to='/' className="lg:text-3xl md:text-2xl text-xl  font-semibold font-Palanquin lg:visible md:visible visible">Home</Link>
-            <Link to='/about' className="lg:text-3xl md:text-2xl text-xl font-semibold font-Palanquin lg:visible md:visible visible">About Us</Link>
+            <Link to='/about' className="lg:text-3xl md:text-2xl text-xl font-semibold font-Palanquin lg:visible md:visible invisible">About Us</Link>
             <Link to='/cart' className="lg:text-3xl md:text-2xl text-xl font-semibold font-Palanquin flex items-center justify-center flex-row gap-2 relative lg:visible md:visible invisible">Cart
                 <img width={30} height={30} src="https://img.icons8.com/?size=100&id=8Na1VyvcBemC&format=png&color=000000"  alt="Shopping cart"/>
                 {<p className="absolute text-xl bottom-6 lg:left-22  md:left-18  left-15">{product}</p>}</Link>
